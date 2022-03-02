@@ -1,0 +1,676 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		586F26E35FB2A3F9770C8CEE38777F0E /* KOKeyboardRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 3811997527798BE65618E39361E5C262 /* KOKeyboardRow.m */; };
+		7A5D5F693260F450E72CFF3E1EC90643 /* KOKeyboard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DCEC2CCF7795C8A5D8256A49C95D8CA4 /* KOKeyboard-dummy.m */; };
+		8466EDFB81DD59816E471FF697428608 /* KOKeyboardRow.h in Headers */ = {isa = PBXBuildFile; fileRef = 6351A5530D0BB35BC7C2CE3049034F2B /* KOKeyboardRow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		85861D26EDE52C222C14B5ECF07F4CF0 /* Pods-KOKeyboard_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 465ADDC1A53504C6E43C795B24E6866F /* Pods-KOKeyboard_Tests-dummy.m */; };
+		8D7DFEDBFA2CEF791B6B35DAC9FFEA7D /* Pods-KOKeyboard_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8209D8B033BD241892479EA12730F1DA /* Pods-KOKeyboard_Example-dummy.m */; };
+		AA04BBBEBB6DCCAB53E8CA9ADAA14F77 /* KOSwipeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D10895CCE54B8202246576D87FFF0B7 /* KOSwipeButton.m */; };
+		BACEBA93AE4D332DD639F9C80F62C712 /* KOSwipeButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 91A8B9287EDD8D5C4CBC5E9736D2AE21 /* KOSwipeButton.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA8F3D61736D3137E4EA3CD1E79E00E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79E6B26EDCEBCEE5272F71A4C4E2B874;
+			remoteInfo = "Pods-KOKeyboard_Example";
+		};
+		F2BBB806FFC0067C8FEE3C2FFF7E2323 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 057533ED6537404C4E3BF09DF860BBB3;
+			remoteInfo = KOKeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CD4B7C757F9585D3FC7C979807E9386 /* Pods-KOKeyboard_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KOKeyboard_Example-resources.sh"; sourceTree = "<group>"; };
+		149A51D8FB20FE0F6D3F526A0F395FA6 /* hal-blue@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "hal-blue@2x.png"; path = "KOKeyboard/Assets/hal-blue@2x.png"; sourceTree = "<group>"; };
+		2B2C932BC7A6B87AFFB1140D51FCACC7 /* key@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "key@2x.png"; path = "KOKeyboard/Assets/key@2x.png"; sourceTree = "<group>"; };
+		2C779C0FCEF794D594F240CF4D2DD29F /* libPods-KOKeyboard_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KOKeyboard_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F2C428ADF269163E7618E949C8E1A01 /* hal-white@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "hal-white@2x.png"; path = "KOKeyboard/Assets/hal-white@2x.png"; sourceTree = "<group>"; };
+		3811997527798BE65618E39361E5C262 /* KOKeyboardRow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KOKeyboardRow.m; path = KOKeyboard/Classes/KOKeyboardRow.m; sourceTree = "<group>"; };
+		3D772A644DA94F37568E049635367A76 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		414A6F5DD9C7C8510A2D89357EC65D68 /* hal-black.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "hal-black.png"; path = "KOKeyboard/Assets/hal-black.png"; sourceTree = "<group>"; };
+		43F6E3684FA4132B2F4784F5F111DEB6 /* Pods-KOKeyboard_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KOKeyboard_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		465ADDC1A53504C6E43C795B24E6866F /* Pods-KOKeyboard_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KOKeyboard_Tests-dummy.m"; sourceTree = "<group>"; };
+		47F82D53036EE440A9A17BD1CA03F201 /* key-pressed.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "key-pressed.png"; path = "KOKeyboard/Assets/key-pressed.png"; sourceTree = "<group>"; };
+		6351A5530D0BB35BC7C2CE3049034F2B /* KOKeyboardRow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KOKeyboardRow.h; path = KOKeyboard/Classes/KOKeyboardRow.h; sourceTree = "<group>"; };
+		6FCAB3B376B1AF94586A3F716F094B88 /* hal-black@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "hal-black@2x.png"; path = "KOKeyboard/Assets/hal-black@2x.png"; sourceTree = "<group>"; };
+		7EBC774F3A85E5A61CA88BBC71B593DA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		8209D8B033BD241892479EA12730F1DA /* Pods-KOKeyboard_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KOKeyboard_Example-dummy.m"; sourceTree = "<group>"; };
+		834EFFD13561D00B62D4927D854829D6 /* Pods-KOKeyboard_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KOKeyboard_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8D10895CCE54B8202246576D87FFF0B7 /* KOSwipeButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KOSwipeButton.m; path = KOKeyboard/Classes/KOSwipeButton.m; sourceTree = "<group>"; };
+		91A8B9287EDD8D5C4CBC5E9736D2AE21 /* KOSwipeButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KOSwipeButton.h; path = KOKeyboard/Classes/KOSwipeButton.h; sourceTree = "<group>"; };
+		9CAD4C2C022628C8B009ED5F3842E0B6 /* KOKeyboard.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = KOKeyboard.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A34E07CCB07DE3D16CE1313E1423E99C /* hal-blue.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "hal-blue.png"; path = "KOKeyboard/Assets/hal-blue.png"; sourceTree = "<group>"; };
+		A374DFB1ED1AB6494B9D85A8154A909D /* KOKeyboard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KOKeyboard-prefix.pch"; sourceTree = "<group>"; };
+		AE48EAEE23464A2FC87F692471084C3A /* Pods-KOKeyboard_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KOKeyboard_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B99C263553B8724628C3386BB84E965C /* key-blue@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "key-blue@2x.png"; path = "KOKeyboard/Assets/key-blue@2x.png"; sourceTree = "<group>"; };
+		C16AF28055F2753C1939C4C312567189 /* key-blue.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "key-blue.png"; path = "KOKeyboard/Assets/key-blue.png"; sourceTree = "<group>"; };
+		C2E9CD99343E5229A6745C2012CFFC97 /* Pods-KOKeyboard_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KOKeyboard_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C59BCE7799BB9F3DF13EA6B6F907DC02 /* KOKeyboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KOKeyboard.debug.xcconfig; sourceTree = "<group>"; };
+		CA29FE0DD1735D1429FF74566E3F0A10 /* hal-white.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "hal-white.png"; path = "KOKeyboard/Assets/hal-white.png"; sourceTree = "<group>"; };
+		D3C0D5243CD02ABFF30DBF712823D7DD /* Pods-KOKeyboard_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KOKeyboard_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D514BC546014AE62C93DF842DCF5D585 /* libKOKeyboard.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKOKeyboard.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D88401DABBD28258D491280A4E983D71 /* key.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = key.png; path = KOKeyboard/Assets/key.png; sourceTree = "<group>"; };
+		DCEC2CCF7795C8A5D8256A49C95D8CA4 /* KOKeyboard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KOKeyboard-dummy.m"; sourceTree = "<group>"; };
+		E41939DA6EB8903DB6E6E7960F7D4195 /* Pods-KOKeyboard_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KOKeyboard_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		EE3C5B942E7FE8653DA9274AA4EC6E91 /* libPods-KOKeyboard_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KOKeyboard_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF85AB74E9A70497916E81E574A0B704 /* KOKeyboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KOKeyboard.release.xcconfig; sourceTree = "<group>"; };
+		F48FD3AA5BC074B73C2B09E644853EAF /* Pods-KOKeyboard_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KOKeyboard_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F6DD8D6F27521A2568DF73593DE6629B /* key-pressed@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "key-pressed@2x.png"; path = "KOKeyboard/Assets/key-pressed@2x.png"; sourceTree = "<group>"; };
+		FF43160A4C607702077EC96E9B48FBE6 /* Pods-KOKeyboard_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KOKeyboard_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EB525345089342745BB80E1F2FAB060 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B2DBCF67EBBDD76C9B07D48D32E047F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC564307076B5ECBF99CC0BCB41DB05F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F1DD80BBB2CAAC66D0372575BE9A553 /* Pods-KOKeyboard_Example */ = {
+			isa = PBXGroup;
+			children = (
+				D3C0D5243CD02ABFF30DBF712823D7DD /* Pods-KOKeyboard_Example-acknowledgements.markdown */,
+				FF43160A4C607702077EC96E9B48FBE6 /* Pods-KOKeyboard_Example-acknowledgements.plist */,
+				8209D8B033BD241892479EA12730F1DA /* Pods-KOKeyboard_Example-dummy.m */,
+				0CD4B7C757F9585D3FC7C979807E9386 /* Pods-KOKeyboard_Example-resources.sh */,
+				F48FD3AA5BC074B73C2B09E644853EAF /* Pods-KOKeyboard_Example.debug.xcconfig */,
+				AE48EAEE23464A2FC87F692471084C3A /* Pods-KOKeyboard_Example.release.xcconfig */,
+			);
+			name = "Pods-KOKeyboard_Example";
+			path = "Target Support Files/Pods-KOKeyboard_Example";
+			sourceTree = "<group>";
+		};
+		35B803022346250A77CF5E4574B52017 /* KOKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				414A6F5DD9C7C8510A2D89357EC65D68 /* hal-black.png */,
+				6FCAB3B376B1AF94586A3F716F094B88 /* hal-black@2x.png */,
+				A34E07CCB07DE3D16CE1313E1423E99C /* hal-blue.png */,
+				149A51D8FB20FE0F6D3F526A0F395FA6 /* hal-blue@2x.png */,
+				CA29FE0DD1735D1429FF74566E3F0A10 /* hal-white.png */,
+				2F2C428ADF269163E7618E949C8E1A01 /* hal-white@2x.png */,
+				D88401DABBD28258D491280A4E983D71 /* key.png */,
+				C16AF28055F2753C1939C4C312567189 /* key-blue.png */,
+				B99C263553B8724628C3386BB84E965C /* key-blue@2x.png */,
+				47F82D53036EE440A9A17BD1CA03F201 /* key-pressed.png */,
+				F6DD8D6F27521A2568DF73593DE6629B /* key-pressed@2x.png */,
+				2B2C932BC7A6B87AFFB1140D51FCACC7 /* key@2x.png */,
+				6351A5530D0BB35BC7C2CE3049034F2B /* KOKeyboardRow.h */,
+				3811997527798BE65618E39361E5C262 /* KOKeyboardRow.m */,
+				91A8B9287EDD8D5C4CBC5E9736D2AE21 /* KOSwipeButton.h */,
+				8D10895CCE54B8202246576D87FFF0B7 /* KOSwipeButton.m */,
+				45747CDE1765EC4025E5AD044FECE19A /* Pod */,
+				A0CBF3A1D3C8B4AAF2DD6F274B177115 /* Support Files */,
+			);
+			name = KOKeyboard;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		45747CDE1765EC4025E5AD044FECE19A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9CAD4C2C022628C8B009ED5F3842E0B6 /* KOKeyboard.podspec */,
+				7EBC774F3A85E5A61CA88BBC71B593DA /* LICENSE */,
+				3D772A644DA94F37568E049635367A76 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		6E08A9CD0B04F4D1BCEACC63490F027A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F1DD80BBB2CAAC66D0372575BE9A553 /* Pods-KOKeyboard_Example */,
+				A74A76D683B89ABA2D2B31027212C74E /* Pods-KOKeyboard_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A0CBF3A1D3C8B4AAF2DD6F274B177115 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCEC2CCF7795C8A5D8256A49C95D8CA4 /* KOKeyboard-dummy.m */,
+				A374DFB1ED1AB6494B9D85A8154A909D /* KOKeyboard-prefix.pch */,
+				C59BCE7799BB9F3DF13EA6B6F907DC02 /* KOKeyboard.debug.xcconfig */,
+				EF85AB74E9A70497916E81E574A0B704 /* KOKeyboard.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KOKeyboard";
+			sourceTree = "<group>";
+		};
+		A56173B96DEF871CD7D00F087C81F334 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D514BC546014AE62C93DF842DCF5D585 /* libKOKeyboard.a */,
+				2C779C0FCEF794D594F240CF4D2DD29F /* libPods-KOKeyboard_Example.a */,
+				EE3C5B942E7FE8653DA9274AA4EC6E91 /* libPods-KOKeyboard_Tests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A74A76D683B89ABA2D2B31027212C74E /* Pods-KOKeyboard_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				834EFFD13561D00B62D4927D854829D6 /* Pods-KOKeyboard_Tests-acknowledgements.markdown */,
+				C2E9CD99343E5229A6745C2012CFFC97 /* Pods-KOKeyboard_Tests-acknowledgements.plist */,
+				465ADDC1A53504C6E43C795B24E6866F /* Pods-KOKeyboard_Tests-dummy.m */,
+				E41939DA6EB8903DB6E6E7960F7D4195 /* Pods-KOKeyboard_Tests.debug.xcconfig */,
+				43F6E3684FA4132B2F4784F5F111DEB6 /* Pods-KOKeyboard_Tests.release.xcconfig */,
+			);
+			name = "Pods-KOKeyboard_Tests";
+			path = "Target Support Files/Pods-KOKeyboard_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				DC78148E00E285B68712B972C651F8DC /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				A56173B96DEF871CD7D00F087C81F334 /* Products */,
+				6E08A9CD0B04F4D1BCEACC63490F027A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC78148E00E285B68712B972C651F8DC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				35B803022346250A77CF5E4574B52017 /* KOKeyboard */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		068FDF66D31B00B6F9865CF20F60128C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8466EDFB81DD59816E471FF697428608 /* KOKeyboardRow.h in Headers */,
+				BACEBA93AE4D332DD639F9C80F62C712 /* KOSwipeButton.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D5F5C81896D73201FF3CEED3197FAD1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8858BC8B5ADF4D22FB941716A1A2FFDF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		057533ED6537404C4E3BF09DF860BBB3 /* KOKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2370FC1E8BCBE1B25B20271EE70FEE9C /* Build configuration list for PBXNativeTarget "KOKeyboard" */;
+			buildPhases = (
+				068FDF66D31B00B6F9865CF20F60128C /* Headers */,
+				9C52CAA741D60F6A014C8EA914407DE1 /* Sources */,
+				4EB525345089342745BB80E1F2FAB060 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KOKeyboard;
+			productName = KOKeyboard;
+			productReference = D514BC546014AE62C93DF842DCF5D585 /* libKOKeyboard.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		79E6B26EDCEBCEE5272F71A4C4E2B874 /* Pods-KOKeyboard_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6554D99F4936144B976FDFA3975FFC9B /* Build configuration list for PBXNativeTarget "Pods-KOKeyboard_Example" */;
+			buildPhases = (
+				5D5F5C81896D73201FF3CEED3197FAD1 /* Headers */,
+				C79F9BD5B341A82DA909E08A8916DDBB /* Sources */,
+				AC564307076B5ECBF99CC0BCB41DB05F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CE3EEE1E5565109DD3658D0AD80FDF1 /* PBXTargetDependency */,
+			);
+			name = "Pods-KOKeyboard_Example";
+			productName = "Pods-KOKeyboard_Example";
+			productReference = 2C779C0FCEF794D594F240CF4D2DD29F /* libPods-KOKeyboard_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B2BF8E0D53BAB3EC5E421CDAF1039A61 /* Pods-KOKeyboard_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A87C5FA537C964EDA2B6BD03A24A2133 /* Build configuration list for PBXNativeTarget "Pods-KOKeyboard_Tests" */;
+			buildPhases = (
+				8858BC8B5ADF4D22FB941716A1A2FFDF /* Headers */,
+				92BD482F7B73B5BDC07FECF03274D36E /* Sources */,
+				6B2DBCF67EBBDD76C9B07D48D32E047F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C81EE1C224067D898381D230660BAA61 /* PBXTargetDependency */,
+			);
+			name = "Pods-KOKeyboard_Tests";
+			productName = "Pods-KOKeyboard_Tests";
+			productReference = EE3C5B942E7FE8653DA9274AA4EC6E91 /* libPods-KOKeyboard_Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = A56173B96DEF871CD7D00F087C81F334 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				057533ED6537404C4E3BF09DF860BBB3 /* KOKeyboard */,
+				79E6B26EDCEBCEE5272F71A4C4E2B874 /* Pods-KOKeyboard_Example */,
+				B2BF8E0D53BAB3EC5E421CDAF1039A61 /* Pods-KOKeyboard_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92BD482F7B73B5BDC07FECF03274D36E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85861D26EDE52C222C14B5ECF07F4CF0 /* Pods-KOKeyboard_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C52CAA741D60F6A014C8EA914407DE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A5D5F693260F450E72CFF3E1EC90643 /* KOKeyboard-dummy.m in Sources */,
+				586F26E35FB2A3F9770C8CEE38777F0E /* KOKeyboardRow.m in Sources */,
+				AA04BBBEBB6DCCAB53E8CA9ADAA14F77 /* KOSwipeButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C79F9BD5B341A82DA909E08A8916DDBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D7DFEDBFA2CEF791B6B35DAC9FFEA7D /* Pods-KOKeyboard_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5CE3EEE1E5565109DD3658D0AD80FDF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KOKeyboard;
+			target = 057533ED6537404C4E3BF09DF860BBB3 /* KOKeyboard */;
+			targetProxy = F2BBB806FFC0067C8FEE3C2FFF7E2323 /* PBXContainerItemProxy */;
+		};
+		C81EE1C224067D898381D230660BAA61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-KOKeyboard_Example";
+			target = 79E6B26EDCEBCEE5272F71A4C4E2B874 /* Pods-KOKeyboard_Example */;
+			targetProxy = AA8F3D61736D3137E4EA3CD1E79E00E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0528F92F44C59D871F313739B2DBD687 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C59BCE7799BB9F3DF13EA6B6F907DC02 /* KOKeyboard.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/KOKeyboard/KOKeyboard-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = KOKeyboard;
+				PRODUCT_NAME = KOKeyboard;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		26027F635FC356E7FC89C52951152DDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF85AB74E9A70497916E81E574A0B704 /* KOKeyboard.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/KOKeyboard/KOKeyboard-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = KOKeyboard;
+				PRODUCT_NAME = KOKeyboard;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7390A0C4E7F03CB0723D7EBE2C169D87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F48FD3AA5BC074B73C2B09E644853EAF /* Pods-KOKeyboard_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C45FFD5DC0B23F5AC161853C274FF531 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E41939DA6EB8903DB6E6E7960F7D4195 /* Pods-KOKeyboard_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DCBC7FC34250050958BFE086FEAF9BC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE48EAEE23464A2FC87F692471084C3A /* Pods-KOKeyboard_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFDBA42D3A0E258415F5B70CD610B1A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43F6E3684FA4132B2F4784F5F111DEB6 /* Pods-KOKeyboard_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2370FC1E8BCBE1B25B20271EE70FEE9C /* Build configuration list for PBXNativeTarget "KOKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0528F92F44C59D871F313739B2DBD687 /* Debug */,
+				26027F635FC356E7FC89C52951152DDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6554D99F4936144B976FDFA3975FFC9B /* Build configuration list for PBXNativeTarget "Pods-KOKeyboard_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7390A0C4E7F03CB0723D7EBE2C169D87 /* Debug */,
+				DCBC7FC34250050958BFE086FEAF9BC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A87C5FA537C964EDA2B6BD03A24A2133 /* Build configuration list for PBXNativeTarget "Pods-KOKeyboard_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C45FFD5DC0B23F5AC161853C274FF531 /* Debug */,
+				FFDBA42D3A0E258415F5B70CD610B1A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,16 @@
+PODS:
+  - KOKeyboard (0.1.0)
+
+DEPENDENCIES:
+  - KOKeyboard (from `../`)
+
+EXTERNAL SOURCES:
+  KOKeyboard:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KOKeyboard: 6e1bd351679450300a3cfee37c9b55f0e9b14b77
+
+PODFILE CHECKSUM: 6cd66c4fbace6e4e4f62c6a1c0046821ff1969f6
+
+COCOAPODS: 1.10.0
